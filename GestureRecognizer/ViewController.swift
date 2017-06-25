@@ -9,17 +9,39 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    var isJamesOn = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        imageView.isUserInteractionEnabled = true
+        
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.changePic))
+        imageView.addGestureRecognizer(gestureRecognizer)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func changePic() {
+        
+        if isJamesOn == true {
+            imageView.image = UIImage(named: "kirk.jpg")
+            nameLabel.text = "Kirk Hammett"
+            isJamesOn = false
+        } else if isJamesOn == false {
+            imageView.image = UIImage(named: "james.jpg")
+            nameLabel.text = "James Hetfield"
+            isJamesOn = true
+        }
+        
+        
+        
     }
-
+    
 
 }
 

@@ -12,6 +12,8 @@
 		FC1216821EF5794200EAA28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1216801EF5794200EAA28E /* Main.storyboard */; };
 		FC1216841EF5794200EAA28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1216831EF5794200EAA28E /* Assets.xcassets */; };
 		FC1216871EF5794200EAA28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1216851EF5794200EAA28E /* LaunchScreen.storyboard */; };
+		FC1216901EF5798C00EAA28E /* james.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC12168E1EF5798C00EAA28E /* james.jpg */; };
+		FC1216911EF5798C00EAA28E /* kirk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC12168F1EF5798C00EAA28E /* kirk.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FC1216831EF5794200EAA28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1216861EF5794200EAA28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1216881EF5794200EAA28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC12168E1EF5798C00EAA28E /* james.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = james.jpg; path = ../../../Downloads/Images/james.jpg; sourceTree = "<group>"; };
+		FC12168F1EF5798C00EAA28E /* kirk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kirk.jpg; path = ../../../Downloads/Images/kirk.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		FC12167B1EF5794200EAA28E /* GestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				FC12168E1EF5798C00EAA28E /* james.jpg */,
+				FC12168F1EF5798C00EAA28E /* kirk.jpg */,
 				FC12167C1EF5794200EAA28E /* AppDelegate.swift */,
 				FC12167E1EF5794200EAA28E /* ViewController.swift */,
 				FC1216801EF5794200EAA28E /* Main.storyboard */,
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1216901EF5798C00EAA28E /* james.jpg in Resources */,
+				FC1216911EF5798C00EAA28E /* kirk.jpg in Resources */,
 				FC1216871EF5794200EAA28E /* LaunchScreen.storyboard in Resources */,
 				FC1216841EF5794200EAA28E /* Assets.xcassets in Resources */,
 				FC1216821EF5794200EAA28E /* Main.storyboard in Resources */,
